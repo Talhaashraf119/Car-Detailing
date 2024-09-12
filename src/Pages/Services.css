@@ -1,0 +1,127 @@
+.services-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh; /* Ensure it covers full viewport height */
+  background-color: #000000; /* Background color */
+  padding: 2rem 1rem; /* Padding for better responsiveness */
+  color: white;
+}
+
+.services-section h5 {
+  font-size: 0.9rem;
+  color: white;
+  letter-spacing: 0.15em; /* Improved readability with spacing */
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  max-width: 900px; /* Constrain text width for better readability */
+  margin-bottom: 2rem;
+}
+
+.services-section p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.services-section span {
+  font-size: 0.9rem;
+  color: #ffffff; /* Light gray color for subheading */
+}
+
+/* Medium devices (tablets, landscape phones) */
+@media (min-width: 768px) {
+  .services-section {
+    padding: 3rem 2rem; /* Increase padding for larger screens */
+  }
+
+  .services-section h5 {
+    font-size: 1rem;
+  }
+
+  .services-section h2 {
+    font-size: 2.5rem; /* Increase title size */
+  }
+
+  .services-section p {
+    font-size: 1.2rem; /* Larger body text for readability */
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .services-section {
+    padding: 4rem 3rem;
+  }
+
+  .services-section h5 {
+    font-size: 1.2rem;
+  }
+
+  .services-section h2 {
+    font-size: 3rem; /* Scale up for large screens */
+  }
+
+  .services-section p {
+    font-size: 1.3rem;
+  }
+
+  .services-section span {
+    font-size: 1rem; /* Adjust subheading */
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .services-section {
+    padding: 5rem 4rem;
+  }
+
+  .services-section h5 {
+    font-size: 1.3rem;
+  }
+
+  .services-section h2 {
+    font-size: 3.5rem; /* Larger title for extra large screens */
+  }
+
+  .services-section p {
+    font-size: 1.4rem; /* Increase body text size */
+  }
+
+  .services-section span {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small screens and mobile devices */
+@media (max-width: 576px) {
+  .services-section {
+    padding: 1rem; /* Less padding on smaller devices */
+  }
+
+  .services-section h5 {
+    font-size: 0.8rem;
+  }
+
+  .services-section h2 {
+    font-size: 1.8rem; /* Smaller title for mobile */
+  }
+
+  .services-section p {
+    font-size: 0.9rem;
+  }
+
+  .services-section span {
+    font-size: 0.8rem; /* Smaller subheading */
+  }
+}
